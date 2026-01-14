@@ -1,0 +1,112 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-20 23:18:58.495309",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "pretesting_analysis_of_milk_at_farm_section",
+  "fat_content",
+  "water_percentage",
+  "temperature",
+  "conductivity",
+  "ph",
+  "turbidity",
+  "column_break_hybm",
+  "snf_solids_not_fat",
+  "protein_content",
+  "lactose",
+  "density",
+  "freezing_point"
+ ],
+ "fields": [
+  {
+   "fieldname": "pretesting_analysis_of_milk_at_farm_section",
+   "fieldtype": "Section Break",
+   "label": "Pretesting Analysis of Milk at Farm"
+  },
+  {
+   "fieldname": "fat_content",
+   "fieldtype": "Data",
+   "label": "Fat Content"
+  },
+  {
+   "fieldname": "water_percentage",
+   "fieldtype": "Data",
+   "label": "Water Percentage"
+  },
+  {
+   "fieldname": "temperature",
+   "fieldtype": "Data",
+   "label": "Temperature"
+  },
+  {
+   "fieldname": "conductivity",
+   "fieldtype": "Data",
+   "label": "Conductivity"
+  },
+  {
+   "fieldname": "ph",
+   "fieldtype": "Data",
+   "label": "pH"
+  },
+  {
+   "fieldname": "turbidity",
+   "fieldtype": "Data",
+   "label": "Turbidity"
+  },
+  {
+   "fieldname": "column_break_hybm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "snf_solids_not_fat",
+   "fieldtype": "Data",
+   "label": "SNF (Solids Not Fat)"
+  },
+  {
+   "fieldname": "protein_content",
+   "fieldtype": "Data",
+   "label": "Protein content"
+  },
+  {
+   "fieldname": "lactose",
+   "fieldtype": "Data",
+   "label": "Lactose"
+  },
+  {
+   "fieldname": "density",
+   "fieldtype": "Data",
+   "label": "Density"
+  },
+  {
+   "fieldname": "freezing_point",
+   "fieldtype": "Data",
+   "label": "Freezing Point"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-31 22:34:49.638445",
+ "modified_by": "Administrator",
+ "module": "farms",
+ "name": "Pretesting Analysis of Milk at Farm",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
