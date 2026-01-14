@@ -1,0 +1,94 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-04 19:23:26.572955",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "animal_information_section",
+  "stall_no",
+  "column_break_weor",
+  "buffalo_number",
+  "section_break_ughu",
+  "date",
+  "note",
+  "section_break_jzwo",
+  "vaccines_list"
+ ],
+ "fields": [
+  {
+   "fieldname": "animal_information_section",
+   "fieldtype": "Section Break",
+   "label": " Animal Information"
+  },
+  {
+   "fieldname": "stall_no",
+   "fieldtype": "Link",
+   "label": "Stall No",
+   "options": "Manage Buffalo Calf",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_weor",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "buffalo_number",
+   "fieldtype": "Link",
+   "label": "Buffalo Number ",
+   "options": "Buffalo",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_ughu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "note",
+   "fieldtype": "Small Text",
+   "label": "Note "
+  },
+  {
+   "fieldname": "section_break_jzwo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "vaccines_list",
+   "fieldtype": "Table",
+   "label": " Vaccines List",
+   "options": "vaccine list",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-04 21:12:13.799396",
+ "modified_by": "Administrator",
+ "module": "farms",
+ "name": "Buffalo Vaccine Monitor",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

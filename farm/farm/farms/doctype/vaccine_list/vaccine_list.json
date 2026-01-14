@@ -1,0 +1,68 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-04 16:40:48.723227",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "vaccine_name",
+  "repeat",
+  "given_time",
+  "column_break_qxxo",
+  "dose",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "vaccine_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Vaccine Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "repeat",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Repeat",
+   "options": "\nYes\nNo",
+   "reqd": 1
+  },
+  {
+   "fieldname": "given_time",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Given Time",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_qxxo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dose",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Dose",
+   "reqd": 1
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Data",
+   "label": "Remarks",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-12-04 21:20:32.858210",
+ "modified_by": "Administrator",
+ "module": "farms",
+ "name": "vaccine list",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
